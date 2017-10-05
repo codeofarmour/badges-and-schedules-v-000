@@ -1,4 +1,5 @@
-def badge_maker(name)
+def badge_maker(names)
   speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
-end 
+  speakers.each{|names|} 
+    print "Hello, my name is #{names}."
+end
